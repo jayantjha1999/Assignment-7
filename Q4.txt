@@ -1,0 +1,100 @@
+----HTML CODE-----
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css" />
+<title>Simple Header</title>
+<body>
+<div class="main">
+<header class="header">
+<div class="logo">LOGO</div>
+    <div class="nav">
+        <ul>
+            <li class="nav-item active">Home</li>
+            <li class="nav-item">Pricing</li>
+            <li class="nav-item">Contact</li>
+            <li class="nav-item">Terms & Condition</li>
+            <li class="nav-item button"><button>Let's Start</button></li>
+        </ul>
+    </div>
+</header>
+    <main>
+        <section>
+            <h3>Nature.....(Heading 1)</h3>
+                <p>
+                    Nature encompasses the physical world and all natural phenomena, including living organisms, landscapes, ecosystems, and the elements. It encompasses everything from the smallest microorganisms to the vast expanses of the universe. Nature provides essential resources for life, including food, water, air, and habitats for millions of species.
+                </p>
+        </section>
+        <section>
+            <h3>Nature.....(Heading 2)</h3>
+                <p>Beyond its practical importance, nature holds immense aesthetic and spiritual value for humans, inspiring creativity, tranquility, and a sense of wonder. Many cultures and belief systems attribute spiritual significance to natural elements, viewing them as sacred or divine.</p>
+        </section>
+        <section>
+            <h3>Nature.....(Heading 3)</h3>
+                <p>However, human activities such as deforestation, pollution, habitat destruction, and climate change have significantly impacted natural ecosystems, leading to biodiversity loss, environmental degradation, and ecological imbalances. Conservation efforts are crucial to preserving and restoring nature's balance, safeguarding the planet's health, and ensuring the well-being of future generations.</p>
+        </section>
+    </main>
+</div>
+</body>
+</html>
+
+-------CSS CODE------
+
+* {
+    padding: 1px;
+    margin: 0px;
+    
+    }
+    .header {
+        position: sticky;
+        top: 0px;
+        height: 80px;
+        color: #05f811;
+        background-color: #2a88f4;
+        }
+    .logo {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 20px;
+        margin: auto 0px;
+        height: fit-content;
+        font-weight: bold;
+        }
+    .logo img {
+        width: 120px;
+        }
+    .nav {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+        margin: auto 0px;
+        height: fit-content;
+        font-family: "Red Rose", cursive;
+        }
+    .nav-item {
+        display: inline;
+        margin: 0px 15px;
+        color: #c0bcae;
+        }
+    .nav-item.active {
+        color: #ffffff;
+        }
+    .nav-item.button > button {
+        padding: 10px 20px;
+        background-color: orange;
+        border: 2px solid #070600;
+        border-radius: 10px;
+        color: #0a0100;
+        font-family: "Red Rose", cursive;
+        }
+    main {
+        padding: 5px;
+        }
+    section {
+        margin-top: 25px;
+        }

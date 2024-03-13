@@ -1,0 +1,33 @@
+--------HTML CODE-------
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CARD</title>
+    <link rel="stylesheet" href="style.css" />
+    </head>
+<body>
+    <div class="card">
+        <img class="card-image" src="https://random.imagecdn.app/300/180" alt="random image"/>
+            <div class="card-body">
+                <h3 class="card-title">NATURE!!!</h3>
+                    <p>Nature encompasses the physical world and all natural phenomena, including living organisms, landscapes, ecosystems, and the elements. It encompasses everything from the smallest microorganisms to the vast expanses of the universe. Nature provides essential resources for life, including food, water, air, and habitats for millions of species.Beyond its practical importance, nature holds immense aesthetic and spiritual value for humans, inspiring creativity, tranquility, and a sense of wonder. Many cultures and belief systems attribute spiritual significance to natural elements, viewing them as sacred or divine.However, human activities such as deforestation, pollution, habitat destruction, and climate change have significantly impacted natural ecosystems, leading to biodiversity loss, environmental degradation, and ecological imbalances. Conservation efforts are crucial to preserving and restoring nature's balance, safeguarding the planet's health, and ensuring the well-being of future generations.</p>
+            </div>
+    </div>
+</body>
+</html>
+
+------CSS CODE------
+
+.card {
+    padding: 100px;
+    background-color: rgb(248, 55, 37);
+    border-radius: 10px;
+    }
+.card-image {
+    float: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    }

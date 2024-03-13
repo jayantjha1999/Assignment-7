@@ -1,0 +1,47 @@
+------HTML CODE------
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Z-Index</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="box box__1">Z-Index 1</div>
+            <div class="box box__2">Z-Index 2</div>
+            <div class="box box__3">Z-Index 3</div>
+        </div>
+    </body>
+</html>
+
+--------CSS CODE-------
+
+.container {
+    position: relative;
+    }
+.box {
+        position: absolute;
+        width: 90px;
+        height: 90px;
+        font-size: 20px;
+        color: rgb(5, 4, 4);
+        padding: 25px;
+    }
+.box__1 {
+        left: 50px;
+        top: 50px;
+        background-color: rgb(76, 235, 105);
+    }
+.box__2 {
+        left: 100px;
+        top: 100px;
+        background-color: rgb(149, 149, 207);
+        z-index: 1;
+    }
+.box__3 {
+        left: 150px;
+        top: 150px;
+        background-color: rgb(230, 143, 109);
+
+    }
